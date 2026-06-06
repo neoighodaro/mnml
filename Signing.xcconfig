@@ -1,0 +1,12 @@
+// Signing configuration (tracked).
+//
+// Code signing is intentionally NOT pinned to any Apple Developer account in the
+// repository. To build & run on a physical device, create an untracked
+// `Signing.local.xcconfig` next to this file containing your own team:
+//
+//     DEVELOPMENT_TEAM = ABCDE12345
+//
+// That file is gitignored, so your team ID never lands in the committed project.
+// Simulator builds and CI (CODE_SIGNING_ALLOWED=NO) work without it.
+
+#include? "Signing.local.xcconfig"

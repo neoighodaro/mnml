@@ -1,0 +1,2168 @@
+{
+  "version": "2.13",
+  "children": [
+    {
+      "type": "frame",
+      "id": "Y3fypr",
+      "x": 0,
+      "y": 0,
+      "name": "Welcome to Pencil",
+      "clip": true,
+      "width": 1000,
+      "height": 1458,
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "p5iwM",
+          "x": 38,
+          "y": 297,
+          "name": "Start here",
+          "fill": "#ff8303ff",
+          "textGrowth": "fixed-width-height",
+          "width": 923,
+          "height": 139,
+          "content": "Ask agent to design",
+          "lineHeight": 1.399999976158142,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans",
+          "fontSize": 100,
+          "fontWeight": "500",
+          "letterSpacing": -4
+        }
+      ]
+    },
+    {
+      "type": "path",
+      "id": "pSGLk",
+      "x": 317,
+      "y": 689,
+      "geometry": "M7 0l0 14m7-7l-7 7-7-7",
+      "width": 366,
+      "height": 366,
+      "stroke": "#ff8302ff",
+      "strokeWidth": 50,
+      "strokeLinejoin": "round",
+      "strokeLinecap": "round"
+    },
+    {
+      "type": "frame",
+      "id": "Os7Uh",
+      "x": 1120,
+      "y": 0,
+      "name": "App Store Screenshots — iPhone 6.9\"",
+      "gap": 40,
+      "children": [
+        {
+          "type": "frame",
+          "id": "oGk8j",
+          "name": "SS1 — Hero",
+          "clip": true,
+          "width": 440,
+          "height": 956,
+          "fill": "$bg",
+          "layout": "vertical",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "YJ7M9",
+              "name": "Content",
+              "layout": "vertical",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MnvCr",
+                  "name": "Wordmark Row",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Eb2tz",
+                      "name": "Wordmark Text",
+                      "fill": "$text",
+                      "content": "mnml",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 56,
+                      "fontWeight": "500",
+                      "letterSpacing": -2.24
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "O1k2M",
+                      "name": "Accent Dot",
+                      "fill": "$accent",
+                      "width": 12,
+                      "height": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nJEvB",
+                  "name": "Text Group",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "K3RSS",
+                      "name": "Headline",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": 340,
+                      "content": "Play your audiobooks\nin a clean simple interface.",
+                      "textAlign": "center",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "500",
+                      "letterSpacing": -0.66
+                    },
+                    {
+                      "type": "text",
+                      "id": "nKzYo",
+                      "name": "Subtext",
+                      "fill": "$text-2",
+                      "textGrowth": "fixed-width",
+                      "width": 280,
+                      "content": "A minimal player for people who just want to listen.",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OrooR",
+          "name": "SS2 — Library",
+          "clip": true,
+          "width": 440,
+          "height": 956,
+          "fill": [
+            "$bg",
+            "#ffffff"
+          ],
+          "layout": "vertical",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "E6osI",
+              "name": "Top Text Area",
+              "width": 440,
+              "height": 181,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Zfw0a",
+                  "x": 23,
+                  "y": 62,
+                  "name": "Marketing Headline",
+                  "fill": "$--accent-foreground",
+                  "textGrowth": "fixed-width-height",
+                  "width": 393,
+                  "height": 38,
+                  "content": "Intentionally Simple",
+                  "textAlign": "center",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "GMoRW",
+                  "x": 29,
+                  "y": 109,
+                  "name": "Marketing Subline",
+                  "fill": "$--accent-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 387,
+                  "content": "No confusing interface. It's designed to play, \nno additional nonsense.",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "h52Y7U",
+              "x": 50,
+              "y": 203,
+              "name": "Phone Screen",
+              "enabled": false,
+              "clip": true,
+              "width": 340,
+              "height": 640,
+              "fill": "$bg-light",
+              "cornerRadius": 36,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000040",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 32,
+                "spread": -4
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HO0aO",
+                  "name": "Title Area",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "padding": [
+                    20,
+                    24,
+                    16,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jsPhT",
+                      "name": "Library Title",
+                      "fill": "$text-dark",
+                      "content": "Library",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 20,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TWaah",
+                  "name": "Book List",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "j4w6AU",
+                      "name": "Book Row 1",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 6,
+                          "id": "M1CK7X",
+                          "name": "Cover 1",
+                          "fill": "#E8E0D8",
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b0pQlf",
+                          "name": "Book Info 1",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "YI5rv",
+                              "name": "Book Title 1",
+                              "fill": "$text-dark",
+                              "content": "Atomic Habits",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "mvGaH",
+                              "name": "Book Author 1",
+                              "fill": "$text-2-dark",
+                              "content": "James Clear",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "cRW0u",
+                      "name": "Separator 1",
+                      "fill": "#E5E5E5",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RDQQb",
+                      "name": "Book Row 2",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 6,
+                          "id": "l4GBz6",
+                          "name": "Cover 2",
+                          "fill": "#D4DCE8",
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "OzW0L",
+                          "name": "Book Info 2",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SDV8c",
+                              "name": "Book Title 2",
+                              "fill": "$text-dark",
+                              "content": "Deep Work",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "j0U3W",
+                              "name": "Book Author 2",
+                              "fill": "$text-2-dark",
+                              "content": "Cal Newport",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "NISDQ",
+                      "name": "Separator 2",
+                      "fill": "#E5E5E5",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "G2FjuZ",
+                      "name": "Book Row 3",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 6,
+                          "id": "VeR79",
+                          "name": "Cover 3",
+                          "fill": "#DDE8D4",
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TQ4Dw",
+                          "name": "Book Info 3",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "bBIPK",
+                              "name": "Book Title 3",
+                              "fill": "$text-dark",
+                              "content": "The Almanack of Naval",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "h9MJ6",
+                              "name": "Book Author 3",
+                              "fill": "$text-2-dark",
+                              "content": "Eric Jorgenson",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "BDaUW",
+                      "name": "Separator 3",
+                      "fill": "#E5E5E5",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zCJCD",
+                      "name": "Book Row 4",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 6,
+                          "id": "fndHo",
+                          "name": "Cover 4",
+                          "fill": "#E8D4D4",
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "r5DLj",
+                          "name": "Book Info 4",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "XQFjP",
+                              "name": "Book Title 4",
+                              "fill": "$text-dark",
+                              "content": "Sapiens",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "PIgqe",
+                              "name": "Book Author 4",
+                              "fill": "$text-2-dark",
+                              "content": "Yuval Noah Harari",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 29,
+              "id": "Y53JH1",
+              "rotation": -3.975693351829396e-16,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/IMG_6625.png",
+                "mode": "fill"
+              },
+              "width": 349,
+              "height": 759
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HKZXq",
+          "name": "SS2 — Library",
+          "clip": true,
+          "width": 440,
+          "height": 956,
+          "fill": [
+            "$bg",
+            "#ffffff"
+          ],
+          "layout": "vertical",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Fvu9y",
+              "name": "Top Text Area",
+              "width": 440,
+              "height": 181,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "K1fqZ",
+                  "x": 23,
+                  "y": 62,
+                  "name": "Marketing Headline",
+                  "fill": "$--accent-foreground",
+                  "textGrowth": "fixed-width-height",
+                  "width": 393,
+                  "height": 38,
+                  "content": "Play Controls",
+                  "textAlign": "center",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "WbJoc",
+                  "x": 29,
+                  "y": 109,
+                  "name": "Marketing Subline",
+                  "fill": "$--accent-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 387,
+                  "content": "Simple play controls that covers the basics\nno additional nonsense.",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "q8WLKV",
+              "x": 50,
+              "y": 203,
+              "name": "Phone Screen",
+              "enabled": false,
+              "clip": true,
+              "width": 340,
+              "height": 640,
+              "fill": "$bg-light",
+              "cornerRadius": 36,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000040",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 32,
+                "spread": -4
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "e1fLKr",
+                  "name": "Title Area",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "padding": [
+                    20,
+                    24,
+                    16,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XwaQN",
+                      "name": "Library Title",
+                      "fill": "$text-dark",
+                      "content": "Library",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 20,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RPq3h",
+                  "name": "Book List",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OndDs",
+                      "name": "Book Row 1",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 6,
+                          "id": "yM0LI",
+                          "name": "Cover 1",
+                          "fill": "#E8E0D8",
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "j26rU0",
+                          "name": "Book Info 1",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Y90Gs",
+                              "name": "Book Title 1",
+                              "fill": "$text-dark",
+                              "content": "Atomic Habits",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "QXNwo",
+                              "name": "Book Author 1",
+                              "fill": "$text-2-dark",
+                              "content": "James Clear",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "A4cX4",
+                      "name": "Separator 1",
+                      "fill": "#E5E5E5",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "y59qf",
+                      "name": "Book Row 2",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 6,
+                          "id": "Uz4Eg",
+                          "name": "Cover 2",
+                          "fill": "#D4DCE8",
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "s50yu",
+                          "name": "Book Info 2",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "p3Qgwf",
+                              "name": "Book Title 2",
+                              "fill": "$text-dark",
+                              "content": "Deep Work",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "X2BjAM",
+                              "name": "Book Author 2",
+                              "fill": "$text-2-dark",
+                              "content": "Cal Newport",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "F2lyWU",
+                      "name": "Separator 2",
+                      "fill": "#E5E5E5",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "u53PB",
+                      "name": "Book Row 3",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 6,
+                          "id": "Cq0d6",
+                          "name": "Cover 3",
+                          "fill": "#DDE8D4",
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "pjalN",
+                          "name": "Book Info 3",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "K9HgiA",
+                              "name": "Book Title 3",
+                              "fill": "$text-dark",
+                              "content": "The Almanack of Naval",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "TVNnv",
+                              "name": "Book Author 3",
+                              "fill": "$text-2-dark",
+                              "content": "Eric Jorgenson",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "NPRLv",
+                      "name": "Separator 3",
+                      "fill": "#E5E5E5",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ETXRK",
+                      "name": "Book Row 4",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 6,
+                          "id": "ZPRLd",
+                          "name": "Cover 4",
+                          "fill": "#E8D4D4",
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "t3Ksy",
+                          "name": "Book Info 4",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "WQWJn",
+                              "name": "Book Title 4",
+                              "fill": "$text-dark",
+                              "content": "Sapiens",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "IxcaD",
+                              "name": "Book Author 4",
+                              "fill": "$text-2-dark",
+                              "content": "Yuval Noah Harari",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 29,
+              "id": "OOMQh",
+              "rotation": -3.975693351829396e-16,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "Screenshot%202026-06-05%20at%2010.38.58%E2%80%AFAM.png",
+                "mode": "fill"
+              },
+              "width": 349,
+              "height": 759
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ifn98",
+          "name": "SS2 — Library",
+          "clip": true,
+          "width": 440,
+          "height": 956,
+          "fill": [
+            "$bg",
+            "#ffffff"
+          ],
+          "layout": "vertical",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ulAsq",
+              "name": "Top Text Area",
+              "width": 440,
+              "height": 181,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "P3zuKc",
+                  "x": 23,
+                  "y": 62,
+                  "name": "Marketing Headline",
+                  "fill": "$--accent-foreground",
+                  "textGrowth": "fixed-width-height",
+                  "width": 393,
+                  "height": 38,
+                  "content": "Edit Metadata",
+                  "textAlign": "center",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "Ynrdb",
+                  "x": 29,
+                  "y": 109,
+                  "name": "Marketing Subline",
+                  "fill": "$--accent-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 387,
+                  "content": "Quickly edit some information when needed\nno additional nonsense.",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "L21KpR",
+              "x": 50,
+              "y": 203,
+              "name": "Phone Screen",
+              "enabled": false,
+              "clip": true,
+              "width": 340,
+              "height": 640,
+              "fill": "$bg-light",
+              "cornerRadius": 36,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000040",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 32,
+                "spread": -4
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "m1wHEs",
+                  "name": "Title Area",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "padding": [
+                    20,
+                    24,
+                    16,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nefDE",
+                      "name": "Library Title",
+                      "fill": "$text-dark",
+                      "content": "Library",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 20,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mjieo",
+                  "name": "Book List",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "y74X2",
+                      "name": "Book Row 1",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 6,
+                          "id": "KQljd",
+                          "name": "Cover 1",
+                          "fill": "#E8E0D8",
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ThUj3",
+                          "name": "Book Info 1",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "CZip1",
+                              "name": "Book Title 1",
+                              "fill": "$text-dark",
+                              "content": "Atomic Habits",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "SngbI",
+                              "name": "Book Author 1",
+                              "fill": "$text-2-dark",
+                              "content": "James Clear",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "Yevn8",
+                      "name": "Separator 1",
+                      "fill": "#E5E5E5",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qXwMT",
+                      "name": "Book Row 2",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 6,
+                          "id": "ViOkm",
+                          "name": "Cover 2",
+                          "fill": "#D4DCE8",
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Ty65S",
+                          "name": "Book Info 2",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "zkygB",
+                              "name": "Book Title 2",
+                              "fill": "$text-dark",
+                              "content": "Deep Work",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "rYlTL",
+                              "name": "Book Author 2",
+                              "fill": "$text-2-dark",
+                              "content": "Cal Newport",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "ODF78",
+                      "name": "Separator 2",
+                      "fill": "#E5E5E5",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HfzeH",
+                      "name": "Book Row 3",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 6,
+                          "id": "xz8WA",
+                          "name": "Cover 3",
+                          "fill": "#DDE8D4",
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "slHhZ",
+                          "name": "Book Info 3",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "B9bJng",
+                              "name": "Book Title 3",
+                              "fill": "$text-dark",
+                              "content": "The Almanack of Naval",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "rBkjj",
+                              "name": "Book Author 3",
+                              "fill": "$text-2-dark",
+                              "content": "Eric Jorgenson",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "jlrQF",
+                      "name": "Separator 3",
+                      "fill": "#E5E5E5",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yA7ys",
+                      "name": "Book Row 4",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 6,
+                          "id": "UImaZ",
+                          "name": "Cover 4",
+                          "fill": "#E8D4D4",
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xoA8M",
+                          "name": "Book Info 4",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "KG8Ls",
+                              "name": "Book Title 4",
+                              "fill": "$text-dark",
+                              "content": "Sapiens",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "vrP9v",
+                              "name": "Book Author 4",
+                              "fill": "$text-2-dark",
+                              "content": "Yuval Noah Harari",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 29,
+              "id": "fVMtg",
+              "rotation": -3.975693351829396e-16,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "Screenshot%202026-06-05%20at%2010.43.19%E2%80%AFAM.png",
+                "mode": "fill"
+              },
+              "width": 349,
+              "height": 759
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vNyeV",
+          "name": "SS2 — Library",
+          "clip": true,
+          "width": 440,
+          "height": 956,
+          "fill": [
+            "$bg",
+            "#ffffff"
+          ],
+          "layout": "vertical",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "BJR9O",
+              "name": "Top Text Area",
+              "width": 440,
+              "height": 181,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QwvZi",
+                  "x": 23,
+                  "y": 62,
+                  "name": "Marketing Headline",
+                  "fill": "$--accent-foreground",
+                  "textGrowth": "fixed-width-height",
+                  "width": 393,
+                  "height": 38,
+                  "content": "Skip Chapters",
+                  "textAlign": "center",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "Z7aOI4",
+                  "x": 29,
+                  "y": 109,
+                  "name": "Marketing Subline",
+                  "fill": "$--accent-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 387,
+                  "content": "Quickly jump between chapters\nno additional nonsense.",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EwkJj",
+              "x": 50,
+              "y": 203,
+              "name": "Phone Screen",
+              "enabled": false,
+              "clip": true,
+              "width": 340,
+              "height": 640,
+              "fill": "$bg-light",
+              "cornerRadius": 36,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000040",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 32,
+                "spread": -4
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dAPut",
+                  "name": "Title Area",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "padding": [
+                    20,
+                    24,
+                    16,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p332CN",
+                      "name": "Library Title",
+                      "fill": "$text-dark",
+                      "content": "Library",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 20,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RX8ZN",
+                  "name": "Book List",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "PuYdL",
+                      "name": "Book Row 1",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 6,
+                          "id": "Lj6Ur",
+                          "name": "Cover 1",
+                          "fill": "#E8E0D8",
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Xd1rb",
+                          "name": "Book Info 1",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Iz9t5",
+                              "name": "Book Title 1",
+                              "fill": "$text-dark",
+                              "content": "Atomic Habits",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "FOeAl",
+                              "name": "Book Author 1",
+                              "fill": "$text-2-dark",
+                              "content": "James Clear",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "V2YMW",
+                      "name": "Separator 1",
+                      "fill": "#E5E5E5",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "H7HU4n",
+                      "name": "Book Row 2",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 6,
+                          "id": "MWbfU",
+                          "name": "Cover 2",
+                          "fill": "#D4DCE8",
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WrR0x",
+                          "name": "Book Info 2",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "T2DCG",
+                              "name": "Book Title 2",
+                              "fill": "$text-dark",
+                              "content": "Deep Work",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "hnFMv",
+                              "name": "Book Author 2",
+                              "fill": "$text-2-dark",
+                              "content": "Cal Newport",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "Jlli1",
+                      "name": "Separator 2",
+                      "fill": "#E5E5E5",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZO72h",
+                      "name": "Book Row 3",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 6,
+                          "id": "Uj5tK",
+                          "name": "Cover 3",
+                          "fill": "#DDE8D4",
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TNlDv",
+                          "name": "Book Info 3",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "k2fUuj",
+                              "name": "Book Title 3",
+                              "fill": "$text-dark",
+                              "content": "The Almanack of Naval",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "QVIEg",
+                              "name": "Book Author 3",
+                              "fill": "$text-2-dark",
+                              "content": "Eric Jorgenson",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "luo6g",
+                      "name": "Separator 3",
+                      "fill": "#E5E5E5",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XuUSZ",
+                      "name": "Book Row 4",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 6,
+                          "id": "fW5U9",
+                          "name": "Cover 4",
+                          "fill": "#E8D4D4",
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "a6S8q",
+                          "name": "Book Info 4",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "zBKPO",
+                              "name": "Book Title 4",
+                              "fill": "$text-dark",
+                              "content": "Sapiens",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "OV7rF",
+                              "name": "Book Author 4",
+                              "fill": "$text-2-dark",
+                              "content": "Yuval Noah Harari",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 29,
+              "id": "c5BHZH",
+              "rotation": -3.975693351829396e-16,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/IMG_6627.png",
+                "mode": "fill"
+              },
+              "width": 349,
+              "height": 759
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "Mode": [
+      "Light",
+      "Dark"
+    ]
+  },
+  "variables": {
+    "--sidebar": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E7E8E5"
+        },
+        {
+          "value": "#18181b",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#666666"
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#18181b"
+        },
+        {
+          "value": "#18181b",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-primary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#fafafa"
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#ffffff1a",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#2a2a30",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-accent-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#18181b"
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-ring": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#71717a"
+        },
+        {
+          "value": "#71717a",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--background": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F2F3F0"
+        },
+        {
+          "value": "#111111",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--card": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF"
+        },
+        {
+          "value": "#1A1A1A",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--card-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--popover": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF"
+        },
+        {
+          "value": "#1A1A1A",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--popover-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FF8400"
+        },
+        {
+          "value": "#FF8400",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--primary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#111111",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--secondary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E7E8E5"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--secondary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--muted": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F2F3F0"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--muted-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#666666"
+        },
+        {
+          "value": "#B8B9B6",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F2F3F0"
+        },
+        {
+          "value": "#111111",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--accent-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#F2F3F0",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--destructive": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D93C15"
+        },
+        {
+          "value": "#FF5C33",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--input": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--ring": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#666666"
+        },
+        {
+          "value": "#666666",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "--black": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "--font-primary": {
+      "type": "string",
+      "value": "JetBrains Mono"
+    },
+    "--font-secondary": {
+      "type": "string",
+      "value": "Geist"
+    },
+    "--radius-none": {
+      "type": "number",
+      "value": 0
+    },
+    "--radius-pill": {
+      "type": "number",
+      "value": 999
+    },
+    "--color-success": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#DFE6E1"
+        },
+        {
+          "value": "#222924",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-success-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#004D1A"
+        },
+        {
+          "value": "#B6FFCE",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-warning": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E9E3D8"
+        },
+        {
+          "value": "#291C0F",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-warning-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#804200"
+        },
+        {
+          "value": "#FF8400",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-error": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E5DCDA"
+        },
+        {
+          "value": "#24100B",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-error-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#8C1C00"
+        },
+        {
+          "value": "#FF5C33",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-info": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#DFDFE6"
+        },
+        {
+          "value": "#222229",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-info-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#000066"
+        },
+        {
+          "value": "#B2B2FF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--radius-m": {
+      "type": "number",
+      "value": 16
+    },
+    "bg": {
+      "type": "color",
+      "value": "#161618"
+    },
+    "bg-light": {
+      "type": "color",
+      "value": "#FCFCFD"
+    },
+    "text": {
+      "type": "color",
+      "value": "#F2F2F3"
+    },
+    "text-dark": {
+      "type": "color",
+      "value": "#1A1D21"
+    },
+    "text-2": {
+      "type": "color",
+      "value": "rgba(235,235,245,0.62)"
+    },
+    "text-2-dark": {
+      "type": "color",
+      "value": "#60646C"
+    },
+    "text-3": {
+      "type": "color",
+      "value": "rgba(235,235,245,0.34)"
+    },
+    "accent": {
+      "type": "color",
+      "value": "#3B6FD4"
+    },
+    "accent-light": {
+      "type": "color",
+      "value": "#5B8DE6"
+    },
+    "track": {
+      "type": "color",
+      "value": "rgba(255,255,255,0.14)"
+    },
+    "hairline": {
+      "type": "color",
+      "value": "rgba(255,255,255,0.10)"
+    },
+    "surface": {
+      "type": "color",
+      "value": "rgba(28,28,31,0.72)"
+    },
+    "btn-text": {
+      "type": "color",
+      "value": "#FFFFFF"
+    }
+  }
+}

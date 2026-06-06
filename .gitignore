@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Xcode — user-specific & build artifacts
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+DerivedData/
+build/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Local signing override (keeps your Apple Developer Team ID out of the repo)
+Signing.local.xcconfig
+
+# Project-local
+design_handoff_mnml/
+.claude/worktrees/
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+docs/
