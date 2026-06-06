@@ -498,7 +498,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "images/IMG_6625.png",
+                "url": "home.png",
                 "mode": "fill"
               },
               "width": 349,
@@ -862,7 +862,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "Screenshot%202026-06-05%20at%2010.38.58%E2%80%AFAM.png",
+                "url": "now-playing.png",
                 "mode": "fill"
               },
               "width": 349,
@@ -1226,7 +1226,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "Screenshot%202026-06-05%20at%2010.43.19%E2%80%AFAM.png",
+                "url": "editing.png",
                 "mode": "fill"
               },
               "width": 349,
@@ -1590,7 +1590,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "images/IMG_6627.png",
+                "url": "chapters.png",
                 "mode": "fill"
               },
               "width": 349,
