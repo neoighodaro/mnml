@@ -23,14 +23,14 @@ struct SmartRewindPreferenceTests {
 
     @Test func persistsDisabled() {
         let defaults = freshDefaults()
-        var pref = SmartRewindPreference(defaults: defaults)
+        let pref = SmartRewindPreference(defaults: defaults)
         pref.isEnabled = false
         #expect(SmartRewindPreference(defaults: defaults).isEnabled == false)
     }
 
     @Test func persistsReEnabled() {
         let defaults = freshDefaults()
-        var pref = SmartRewindPreference(defaults: defaults)
+        let pref = SmartRewindPreference(defaults: defaults)
         pref.isEnabled = false
         pref.isEnabled = true
         #expect(SmartRewindPreference(defaults: defaults).isEnabled == true)

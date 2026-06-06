@@ -23,7 +23,7 @@ struct CloudSyncPreferenceTests {
 
     @Test func persistsEnabled() {
         let defaults = freshDefaults()
-        var pref = CloudSyncPreference(defaults: defaults)
+        let pref = CloudSyncPreference(defaults: defaults)
         pref.isEnabled = true
         #expect(CloudSyncPreference(defaults: defaults).isEnabled == true)
     }
